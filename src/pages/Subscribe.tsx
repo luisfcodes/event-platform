@@ -50,6 +50,7 @@ export function Subscribe() {
               placeholder="Seu nome completo"
               onChange={event => setName(event.target.value)}
               value={name}
+              required
             />
             <input
               className="bg-gray-900 rounded px-5 h-14"
@@ -57,6 +58,7 @@ export function Subscribe() {
               placeholder="Digite seu e-mail"
               onChange={event => setEmail(event.target.value)}
               value={email}
+              required
             />
 
             <button
